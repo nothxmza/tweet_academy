@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap%27');
+body {
+    font-family: googleapis, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#returnBtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+section {
+    border: 3px solid #ccc;
+    width: 40%;
+    margin: 10% auto;
+    padding: 1%;
+}
+
+section select {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
+
+.spacer {
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    padding: 1%;
+    margin: 1% 0;  
+}
+
+section input[type='submit'] {
+    border: none;
+    background-color: #00a2ff;
+    color: #fff;
+    padding: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+section input[type='submit']:hover {
+    background-color: #0059ff;
+}
+
+@media screen and (max-width: 400px) {
+    section {
+        width: 100%;
+        border: none;
+        margin-top: 20%;
+    }
+
+    section input[type='submit'] {
+        height: 50px;
+        border-radius: 60px;
+    }
+}
